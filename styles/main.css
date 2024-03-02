@@ -1,0 +1,487 @@
+/* new year banner styles */
+ 
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container {
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 101px;
+    border-radius: 16px;
+    background-image: url('../resources/Banner\ Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* max-width: 1320px; */
+}
+
+.banner-content {
+    padding: 186px 344px;
+    text-align: center;
+    max-width: 632px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+
+.banner-message {
+    font-size: 72px;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* 65% off section styles */
+
+.sixty-five-percent-off-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sixty-five-percent-off-content {
+    text-align: center;
+    margin: 0px 396px 120px 396px;
+    font-family: 'Inter', sans-serif;
+    max-width: 803px;
+}
+
+.sixty-five-percent-off-title {
+    margin-top: 0px;
+    color: #FF0000;
+    font-weight: 700;
+    font-size: 88px;
+    margin-bottom: 4px;
+}
+
+.deal-message {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.categories-message {
+    color: #070211;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 48px;
+    margin-top: 0px;
+}
+
+.happy-new-year-img {
+    width: 803px;
+}
+
+/* midnight party section styles */
+
+.midnight-party-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midnight-party-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 137px 120px 137px;
+    font-family: 'Merriweather', sans-serif;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+}
+
+.midnight-party-title {
+    color: #FFF;
+    font-size: 64px;
+    margin: 126px 74px 0px 126px;
+    width: 642px;
+}
+
+.midnight-party-description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 17px 0px 48px 126px;
+}
+
+.midnight-party-img-container {
+    margin: 68px 137px 68px 50px;
+}
+
+.party-join-btn {
+    font-size: 20px;
+    color: #FFF;
+    background-color: rgba(7, 2, 17, 0.01);
+    margin: 0px auto 140px 158px;
+    border: 0px;
+    cursor: pointer; 
+}
+
+/* place date time section styles */
+
+.place-date-time-container {
+    font-family: 'Item', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.place-date-time-content {
+    border-radius: 16px;
+    text-align: center;
+    margin: 0px 137px 120px 140px;
+    padding: 100px 386px 110px 386px;
+    background-image: linear-gradient(#fee1e1, #fff);
+}
+
+.place-date-time-item {
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+.place-date-time-key {
+    color: #FF0000;
+}
+
+.place-date-time-btn {
+    background-color: #FF0000;
+    border: 0px;
+    border-radius: 8px;
+    color: #FFF;
+    padding: 16px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* coming soon section */
+
+.coming-soon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.coming-soon-content {
+    margin: 0px 140px 120px 140px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    /* justify-content: space-between; */
+    max-width: 1320px;
+    align-items: center;
+}
+
+.coming-soon-item-1 {
+    margin: 55px 70px 80px 0px;
+    padding-left: 0px;
+}
+
+.coming-soon-item-sub-title {
+    font-size: 24px;
+    font-weight: 500px;
+    color: #FF0000;
+    margin-bottom: 0px;
+}
+
+.coming-soon-item-title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #070211;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.coming-soon-item-description-1 {
+    max-width: 393px;
+    color: #878787;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.coming-soon-item-2 {
+    margin-right: 118px;
+}
+
+.coming-soon-item-img-container {
+    padding: 50px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+}
+
+.coming-soon-item-3 {
+    margin-top: 63px;
+}
+
+.coming-soon-year {
+    color: #FF0000;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.coming-soon-year-description {
+    font-size: 20px;
+    color: #878787;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 45px;
+}
+
+/* holidays sale section */
+
+.holidays-sale-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holidays-sale-content {
+    font-family: 'Merriweather', sans-serif;
+    margin: 0px 140px 120px 140px;
+}
+
+.holidays-sale-text {
+    text-align: center;
+}
+
+.holidays-sale-sub-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #070211;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.holidays-sale-title {
+    font-size: 72px;
+    font-weight: 700;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holidays-highlight {
+    color: #FF0000;
+}
+
+.holidays-sale-description {
+    color: #878787;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 64px;
+}
+
+
+.holidays-sale-images {
+    /* display: flex; */
+    width: 1320px;
+    height: 662.07px;
+    background-image: url('../resources/Group\ 75.png'), url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom;
+}
+
+.discount-img-container {
+    margin: 117px 307px 318px 765px;
+}
+
+/* best gifts section */
+
+.best-gifts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-gifts-content {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.best-gifts-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.best-gifts-text {
+    font-family: 'Inter', sans-serif;
+    margin: 0px 140px 0px 290px;
+    padding: 0px 424px 58px 0px;    
+}
+
+.best-gifts-images-container {
+    display: flex;
+    /* justify-content: space-between; */
+    max-width: 1320px;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.best-gifts-sub-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.best-gifts-title {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.best-gifts-description {
+    color: #878787;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+/* newsletter section */
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-content {
+    margin: 0px 140px 120px 140px;
+    background: rgb(255, 0, 0, 0.05);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 8px;
+    width: 1320px;
+}
+
+.newsletter-title {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+.newsletter-description {    
+    font-size: 20px;
+    font-weight: 400;
+    color: #878787;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.subscribe-input-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-btn, .subscribe-email-input {
+    border: 0px;
+}
+
+.subscribe-email-input {
+    font-size: 18px;
+    color: #878787;
+    padding: 25px 267px 25px 27px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF0000;
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #070211;   
+}
+
+.footer-content {
+    margin: 120px 140px 120px 160px;
+    font-family: 'Inter', sans-serif;
+}
+
+footer h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer-info {
+    display: flex;
+    gap: 700px;
+}
+
+.footer-address {
+    max-width: 375px;
+}
+
+.address {
+    margin-top: 0px;
+}
+
+.call-number, .website-url {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+}
+
+.phone-container, .website-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: 1px solid rgb(255, 255, 255, 0.15);
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.copyright-container {
+    display: flex;
+    gap: 880px;
+    margin-top: 50px;
+}
+
+
+
+
